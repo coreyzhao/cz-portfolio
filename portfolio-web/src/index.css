@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  
+
+  --gradient-text: linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(3, 169, 244, 1) 100%);
+
+  --font-family: 'Jost', sans-serif;
+  
+  
+  --color-bg: #040C18;
+  --color-text: #81AFDD;
+  
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+
+  --gradient-bar: linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(3, 169, 244, 1) 100%);
+}

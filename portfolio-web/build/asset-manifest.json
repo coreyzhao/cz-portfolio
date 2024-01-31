@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55667bdf.css",
+    "main.js": "/static/js/main.ec9a0717.js",
+    "static/media/mtl.png": "/static/media/mtl.e243e2fe1579e5b9db1b.png",
+    "static/media/coreyzh_web.png": "/static/media/coreyzh_web.809f093930ddb3ce7fd8.png",
+    "static/media/website_pic.png": "/static/media/website_pic.6088c2b143d07996ce85.png",
+    "static/media/pronun_pic.png": "/static/media/pronun_pic.f6107abe0d92330eb32a.png",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/java.png": "/static/media/java.fdabd4e11f1235e4e8e0.png",
+    "static/media/snake_pic.png": "/static/media/snake_pic.59e0d9cad6e3e29ec5f4.png",
+    "static/media/aws.png": "/static/media/aws.850296a094250f4a242e.png",
+    "static/media/js-html-css.png": "/static/media/js-html-css.d03d513f78bdcd0bd2c3.png",
+    "static/media/mongodb.png": "/static/media/mongodb.e2109101e704aa41e765.png",
+    "static/media/mysql.png": "/static/media/mysql.2f2132d4838335ce808e.png",
+    "static/media/c.png": "/static/media/c.bf0af88d24cd724c83bc.png",
+    "static/media/azure.png": "/static/media/azure.c1c133ec1eb98218ce66.png",
+    "static/media/nodejs.png": "/static/media/nodejs.c6649cb118c1ede849ad.png",
+    "static/media/express.png": "/static/media/express.9b344d7469dbbdc76754.png",
+    "static/media/python.svg": "/static/media/python.630499c0982f833e853cb28527aa45a4.svg",
+    "index.html": "/index.html",
+    "main.55667bdf.css.map": "/static/css/main.55667bdf.css.map",
+    "main.ec9a0717.js.map": "/static/js/main.ec9a0717.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55667bdf.css",
+    "static/js/main.ec9a0717.js"
+  ]
+}

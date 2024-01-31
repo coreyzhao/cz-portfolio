@@ -1,0 +1,219 @@
+.port__projects {
+  display: flex;
+  flex-direction: column; 
+ 
+  
+  margin: 2rem;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(ellipse at 100% 100%, rgba(30, 44, 148, 1) 1%, rgba(8, 3, 55, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(ellipse at 100% 100%, rgba(30, 44, 148, 1) 1%, rgba(8, 3, 55, 1) 100%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(ellipse at 100% 100%, rgba(30, 44, 148, 1) 1%, rgba(8, 3, 55, 1) 100%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(ellipse at 100% 100%, rgba(30, 44, 148, 1) 1%, rgba(8, 3, 55, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(ellipse at 100% 100%, rgba(30, 44, 148, 1) 1%, rgba(8, 3, 55, 1) 100%);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.port__projects-heading {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+}
+
+
+.freetime {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Source Code Pro';
+  font-weight: 800;
+  color: var(--color-text);
+  margin-top: 1rem;
+}
+
+.personal {
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Source Code Pro';
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+
+.port__projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+}
+
+.port__projects-container_groupA {
+  flex: 0.75;
+  margin-right: 2rem;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
+
+.port__projects-tech-container {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+  
+  background-color: var(--color-footer);
+  padding-left: 1rem;
+}
+
+.port__projects-tech-container div{
+  
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+
+  
+}
+
+.react_img img {
+  width: 55px;
+  height: 50px;
+  
+}
+
+.java_img img {
+  width: 50px;
+  height: 50px;
+}
+
+.mongodb_img img {
+  width: 150px;
+  height: 50px;
+}
+
+.html_img img {
+  width: 150px;
+  height: 50px;
+}
+
+.nodejs_img img {
+  width: 75px;
+  height: 50px;
+}
+
+.azure_img img {
+  width: 120px;
+  height: 85px;
+  margin-top: -1rem;
+}
+
+.mysql_img img {
+  width: 80px;
+  height: 50px;
+}
+
+.python_img img {
+  width: 50px;
+  height: 50px;
+}
+
+.github_code {
+  background-color: var(--color-footer);
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.blank_space {
+  height: 50px;
+  width: 50px;
+  
+}
+
+.blank_space_1 {
+  height: 90px;
+  width: 50px;
+  
+}
+
+.github_code p {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  color: var(--color-text);
+  cursor: pointer;
+
+}
+
+.github_code p:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .port__projects-container {
+    display: grid;
+    grid-template-columns: 600px;
+  }
+
+  .port__projects-container_groupA {
+      margin: 2rem 0;
+  }
+
+  .port__projects-heading {
+    margin-left: 0.7rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 820px) {
+  .port__projects-container {
+    display: grid;
+    grid-template-columns: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .port__projects-container {
+    display: grid;
+    grid-template-columns: 400px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .port__projects-heading p {
+      font-size: 17px;
+      line-height: 24px;
+  }
+
+  .port__projects-container {
+    display: grid;
+    grid-template-columns: 300px;
+  }
+
+  .port__projects-container_groupA p {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+  .port__projects-container {
+    display: grid;
+    grid-template-columns: 260px;
+  }
+
+
+}
